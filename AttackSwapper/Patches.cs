@@ -29,8 +29,10 @@ namespace AttackSwapper
         {
             public static void Postfix(VisEquipment __instance)
             {
+                if(Player.m_localPlayer == null)return;
                 if (__instance.gameObject.GetComponent<Player>() != null)
                 {
+                    if(__instance.m_rightItemInstance == null) return;
                     if (__instance.m_rightItemInstance.GetComponent<ItemDrop>().m_itemData.m_shared.m_itemType ==
                         ItemDrop.ItemData.ItemType.TwoHandedWeapon)
                     {
