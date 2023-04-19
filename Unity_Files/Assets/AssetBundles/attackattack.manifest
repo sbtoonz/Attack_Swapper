@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4261836046
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cd6ced3ac842eadbd9358ae54ceb942a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/3_Skills/Skill_G_ALL.anim
+Dependencies: []
