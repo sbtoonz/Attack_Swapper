@@ -322,9 +322,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\Unity_Files\Assets\AssetBundles\attackattack">
+    <EmbeddedResource Include="..\Unity_Files\Assets\AssetBundles\attackattack">
       <Link>assets\attackattack</Link>
-    </Content>
+    </EmbeddedResource>
     <Content Include="ILRepack.targets" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
